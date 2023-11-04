@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    <title>Shons_Weather_App</title>
+</head>
+<body>
+    <div class="weather_app">
+        <hearder>
+            <form class="class-form" id="search-form">
+            <input type="search" placeholder="Enter City" class="search-input" id="search-form-input">
+            <input type="submit" value="search" class="search-button">
+        </form>
+    </header>
+    <main>
+        <div class="weather-data">
+        <h1 class="city" id="city-id"></h1>
+        <p class="details"><span id="time"></span>,
+            <span id="description"></span><br>
+        Humidity: <strong id="humidity"></strong>, Wind: <strong id="wind-speed"></strong>
+        </div>
+        <div class="temp-container">
+            <div id="app-icon">
+                <img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/broken-clouds-day.png"
+                class="icon">
+            </div>
+            </div>
+            <div class="temp" id="temperature"></div>
+            <div class="unit">&deg;C</div>
+    </main>
+<footer>
+    Coded by Tarie Shoniwa and is hosted on <a href="https://github.com/tarie100/Weather-App_SheCodes">Github</a> and project is hosted on <a href="https://starlit-taffy-2b2da3.netlify.app/">Netlify</a>
+</footer>
+</div>
+<script src="index.js"></script>
+</body>
+</html>

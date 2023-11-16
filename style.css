@@ -81,3 +81,19 @@ main {
     margin-top: 6px;
     font-size: 28px;
 }
+.weather-fore {
+    padding: 50px 0 0 0;
+    width: 80px;
+    display: flex;
+}
+.fore-date {
+    line-height: 20px;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.fore-temp{
+    color: #000;
+    text-align: center;
+    display: flex;
+}
